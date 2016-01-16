@@ -85,7 +85,7 @@
 <div>
      <center>
     <div>
-      <img alt="Image1" class="frameGraphics" id="Image1graphic" src="img/image1.png" style="margin-top:80px;" />
+      <img alt="Image1" class="frameGraphics" id="Image1graphic" src="img/image1.png" style="margin-top:70px;" />
     </div>
   </center>
     <div></div>
@@ -147,7 +147,6 @@
     <p class="Addressee" dir="ltr" lang="en-GB" xml:lang="en-GB">Department of Computer Science &amp; Engineering</p>
     <p class="Addressee" dir="ltr" lang="en-GB" xml:lang="en-GB">Guru Nanak Dev Engineering College, Ludhiana, Punjab-141006</p>
    
-
   <div id="section41" class="container-fluid" style="width:100%"> 
    <p dir="ltr" id="toc4" class="formatting" lang="en-GB" xml:lang="en-GB">Objective </p>
     <p class="Standard" dir="ltr" lang="en-GB" xml:lang="en-GB">The objective of this two day workshop is to provide insight into structured technical reports writing, which is of utmost importance for any research project including M.Tech and Ph.D degree programmes. </p>
@@ -221,5 +220,33 @@
 
     </div>
   </div>
+
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+});
+</script> 
+  
   </body>
 </html>
