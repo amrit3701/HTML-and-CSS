@@ -15,7 +15,7 @@
     <meta content="en" name="DC.language" />
     <style media="all" type="text/css">
       body {font-family:Calibri,serif;font-size:14.666667px}
-      a:link {color:#0000ff;text-decoration:underline}
+      a:link {color:#0000ff;text-decoration:none}
       p.Addressee1Heading {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-align:center;font-family:Cambria,serif;font-weight:bold;font-size:17.066668px;color:#00000a}
       p.AddLeftHeading {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-align:left;font-family:Cambria,serif;font-weight:bold;font-size:13.653334px;color:#00000a}
       p.AddressHeading {margin-left:0;margin-right:0;margin-top:11.337601px;margin-bottom:0px;border:none;padding:0;text-align:center;font-family:Cambria,serif;font-weight:bold;font-size:26.666668px;color:#00000a}
@@ -47,6 +47,61 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50" style="width:100%;">
 
 <div style="position:relative;">
+
+<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://gndec.ac.in/">GNDEC</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <!--<li class="active"><a href="#">Home</a></li>
+            <li><a href="http://google.com">About</a></li>
+            <li><a href="#contact">Contact</a></li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <li><a href="#section41">Objective</a></li>               
+              <li><a href="#section42">Who can apply?</a></li>          
+              <li><a href="#section43">Workshop Venue, Dates and Timings</a></li>  
+              <li><a href="#section44">Resource Persons</a></li>        
+              <li><a href="#section45">Boarding and Lodging</a></li>    
+              <li><a href="#section46">Registration Fee</a></li>        
+              <li><a href="#section47">How to register for the workshop?</a></li>
+              <li><a href="#section48">How to reach?</a></li>           
+              <li><a href="#section49">About Institute</a></li>         
+              <li><a href="#section410">About Department</a></li>       
+              <li><a href="#section411">Address for Correspondence</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://gndec.ac.in/~qi/PETRRE/files/BrochurePrint.pdf" target=blank>Brochure for Print</a></li>
+                <li><a href="http://gndec.ac.in/~qi/PETRRE/files/BrochureScreen.pdf" target=blank>Brochure for Screen</a></li>
+                <li><a href="http://gndec.ac.in/~qi/PETRRE/files/RegistrationForm.pdf" target=blank>Registration form</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <!--<ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>-->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+<!--
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -55,7 +110,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="http://gndec.ac.in/">G.N.D.E.C</a>
+      <a class="navbar-brand" href="http://gndec.ac.in/">GNDEC</a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -75,17 +130,25 @@
               <li><a href="#section411">Address for Correspondence</a></li>
             </ul>
           </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">                                  
+              <li><a href="http://gndec.ac.in/">Section 4-1</a></li>             
+              <li><a href="#section42">Section 4-2</a></li>             
+            </ul>                                                       
+          </li>   
+
         </ul>
       </div>
     </div>
+      
   </div>
-</nav>    
+</nav>   --> 
 </div>
 
 <div>
      <center>
     <div>
-      <img alt="Image1" class="frameGraphics" id="Image1graphic" src="img/image1.png" style="margin-top:80px;" />
+      <img alt="Image1" class="frameGraphics" id="Image1graphic" src="img/image1.png" style="margin-top:70px;" />
     </div>
   </center>
     <div></div>
@@ -147,7 +210,6 @@
     <p class="Addressee" dir="ltr" lang="en-GB" xml:lang="en-GB">Department of Computer Science &amp; Engineering</p>
     <p class="Addressee" dir="ltr" lang="en-GB" xml:lang="en-GB">Guru Nanak Dev Engineering College, Ludhiana, Punjab-141006</p>
    
-
   <div id="section41" class="container-fluid" style="width:100%"> 
    <p dir="ltr" id="toc4" class="formatting" lang="en-GB" xml:lang="en-GB">Objective </p>
     <p class="Standard" dir="ltr" lang="en-GB" xml:lang="en-GB">The objective of this two day workshop is to provide insight into structured technical reports writing, which is of utmost importance for any research project including M.Tech and Ph.D degree programmes. </p>
@@ -221,5 +283,33 @@
 
     </div>
   </div>
+
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+});
+</script> 
+  
   </body>
 </html>
